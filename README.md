@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project allows you to control media playback using **hand gestures** detected via **OpenCV** and **Mediapipe**. No physical buttons or remotes needed—just your hand!
 
-## 🎥 How It Works
+## 🖥 How It Works
 - Uses **OpenCV** to capture video.
 - Uses **Mediapipe** to track your hand.
 - Detects **only one hand** and ignores the other.
@@ -27,9 +27,15 @@ Before running this project, ensure you have:
 ✅ A **camera (webcam)** connected to your system.
 
 ## 🚀 Getting Started
-Since the **virtual environment (`media`) is already included**, you **don’t** need to install dependencies manually. Just activate it and run the script.
 
-### 1️⃣ Activate the Virtual Environment
+### 1️⃣ Set Up Virtual Environment
+If you haven't already, create and activate a virtual environment:
+
+```bash
+python -m venv media
+```
+
+Activate the virtual environment:
 
 #### On Windows:
 ```bash
@@ -42,7 +48,8 @@ source media/bin/activate
 ```
 
 ### 2️⃣ Install Dependencies
-If you need to install all required dependencies manually, run:
+Install required packages using:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -53,14 +60,14 @@ python Gesture.py
 ```
 
 ## 📝 Notes
-✅ Works best with a well-lit background.  
-✅ Keep your hand in front of the camera for best tracking.  
-✅ Ensure no second hand is detected to avoid errors.  
+✅ Works best with a well-lit background.
+✅ Keep your hand in front of the camera for best tracking.
+✅ Ensure no second hand is detected to avoid errors.
 
 ## 💡 Future Improvements
-🚀 Add more custom gestures for advanced control.  
-🚀 Improve accuracy when hands are rotated.  
-🚀 Support for more media applications like Netflix, Spotify, and YouTube.  
+🚀 Add more custom gestures for advanced control.
+🚀 Improve accuracy when hands are rotated.
+🚀 Support for more media applications like Netflix, Spotify, and YouTube.
 
 ## 🏆 Credits
 Built using Python, OpenCV, and Mediapipe.
